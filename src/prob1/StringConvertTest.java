@@ -7,8 +7,7 @@ public class StringConvertTest {
 		int intData2 = 150;
 		
 		/* 코드를 완성합니다. */
-		
-		System.out.println( "결과:" + intData1 + "," + strData2 );
+		System.out.println( "결과:" + String.valueOf(intData2) + "," + Integer.parseInt(strData1));
 	}
 
 }
